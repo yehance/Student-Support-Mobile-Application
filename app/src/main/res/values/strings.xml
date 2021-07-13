@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Student Buddy</string>
+    <string name="results">Results</string>
+    <string name="attendence">Attendence</string>
+    <string name="contact">Contact</string>
+    <string name="more_information">More Information</string>
+    <string name="logo">University of Sri Jayewardenepura Logo</string>
+    <string name="semester_1">Semester 1</string>
+    <string name="semester_2">Semester 2</string>
+    <string name="semester_4">Semester 4</string>
+    <string name="semester_3">Semester 3</string>
+    <string name="semester_5">Semester 5</string>
+    <string name="semester_6">Semester 6</string>
+    <string name="semester_7">Semester 7</string>
+    <string name="semester_8">Semester 8</string>
+    <string name="call_university_staff_label">Call University Staff</string>
+    <string name="phone">Phone</string>
+    <string name="general_line">General Line</string>
+    <string name="library">Library</string>
+    <string name="proctor">Proctor</string>
+    <string name="medical_officer">Medical Officer</string>
+    <string name="student_welfare_division">Student Welfare Division</string>
+    <string name="student_affairs_and_publication_division">Student Affairs and Publication Division</string>
+    <string name="title_activity_results_sem2">ResultsSem2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="view_results">View Results</string>
+    <string name="please_enter_module_details_below">Please enter module details below</string>
+    <string name="enter_module_name">Enter Module Name</string>
+    <string name="enter_result">Enter Result</string>
+    <string name="enter_number_of_credits">Enter Number of Credits</string>
+    <string name="insert_result">Insert Result</string>
+    <string name="update_result">Update Result</string>
+    <string name="delete_result">Delete Result</string>
+    <string name="please_enter_attendance_details_below">Please enter attendance details below</string>
+    <string name="delete_attendance">Delete Attendance</string>
+    <string name="update_attendance">Update Attendance</string>
+    <string name="insert_attendance">Insert Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="enter_weeks_absent">Enter Number of Weeks Absent</string>
+    <string name="enter_academic_weeks">Enter Number of Academic Weeks</string>
+</resources>

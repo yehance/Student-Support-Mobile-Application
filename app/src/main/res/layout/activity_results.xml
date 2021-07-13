@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results">
+
+    <Button
+        android:id="@+id/btnRS1"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="80dp"
+        android:onClick="launchResultsSem1"
+        android:text="@string/semester_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRS2"
+        android:layout_width="176dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem2"
+        android:text="@string/semester_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS1" />
+
+    <Button
+        android:id="@+id/btnRS3"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem3"
+        android:text="@string/semester_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS2" />
+
+    <Button
+        android:id="@+id/btnRS4"
+        android:layout_width="174dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem4"
+        android:text="@string/semester_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS3" />
+
+    <Button
+        android:id="@+id/btnRS5"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem5"
+        android:text="@string/semester_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS4" />
+
+    <Button
+        android:id="@+id/btnRS6"
+        android:layout_width="168dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem6"
+        android:text="@string/semester_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS5" />
+
+    <Button
+        android:id="@+id/btnRS7"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem7"
+        android:text="@string/semester_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS6" />
+
+    <Button
+        android:id="@+id/btnRS8"
+        android:layout_width="163dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchResultsSem8"
+        android:text="@string/semester_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRS7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

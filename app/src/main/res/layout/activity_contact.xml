@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+    <ImageView
+        android:id="@+id/btnCall_1"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callHeadingLabel"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/btnCall_2"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCall_1"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/btnCall_3"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCall_2"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/btnCall_4"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCall_3"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/btnCall_5"
+        android:layout_width="69dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCall_4"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/btnCall_6"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/phone"
+        android:onClick="callNumber6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCall_5"
+        app:srcCompat="@drawable/call_icon" />
+
+    <TextView
+        android:id="@+id/callHeadingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/call_university_staff_label"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/callLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber1"
+        android:text="@string/general_line"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_1"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_1" />
+
+    <TextView
+        android:id="@+id/callLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber2"
+        android:text="@string/library"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_2"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_2" />
+
+    <TextView
+        android:id="@+id/callLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber3"
+        android:text="@string/proctor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_3"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_3" />
+
+    <TextView
+        android:id="@+id/callLabel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber4"
+        android:text="@string/medical_officer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_4"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_4" />
+
+    <TextView
+        android:id="@+id/callLabel5"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber5"
+        android:text="@string/student_welfare_division"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_5"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_5" />
+
+    <TextView
+        android:id="@+id/callLabel6"
+        android:layout_width="249dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="callNumber6"
+        android:text="@string/student_affairs_and_publication_division"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnCall_6"
+        app:layout_constraintTop_toTopOf="@+id/btnCall_6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

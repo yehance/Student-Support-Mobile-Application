@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yehan.studentbuddy">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentBuddy">
+
+        <activity
+            android:name=".AttendenceSem8"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem7"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem6"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem5"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem4"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem3"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem2"
+            android:parentActivityName=".Attendence" />
+        <activity
+            android:name=".AttendenceSem1"
+            android:parentActivityName=".Attendence" />
+
+        <activity android:name=".ResultsSem8"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem7"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem6"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem5"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem4"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem3"
+                  android:parentActivityName=".Results"/>
+        <activity android:name=".ResultsSem2"
+                  android:parentActivityName=".Results"></activity>
+        <activity android:name=".ResultsSem1"
+                  android:parentActivityName=".Results"/>
+
+        <activity
+            android:name=".Contact"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Attendence"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Results"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
